@@ -1,0 +1,97 @@
+{
+    "menus": [
+        {
+            "start": true,
+            "id": 0,
+            "label": "Welcome",
+            "next": [1, 1]
+        },
+        {
+            "id": 1,
+            "label": "Main menu",
+            "next": [2, 3, 4, 5, 6, 7, 8]
+        },
+        {
+            "id": 2,
+            "label": "1: grocery inquiry",
+            "next": [9, 10]
+        },
+        {
+            "id": 3,
+            "label": "2: online order inquiry",
+            "next": [11]
+        },
+        {
+            "id": 4,
+            "label": "3: store related matters",
+            "next": [12]
+        },
+        {
+            "id": 5,
+            "label": "4: Walmart Rewards Mastercard",
+            "next": [14]
+        },
+        {
+            "id": 6,
+            "label": "5: Walmart photo center",
+            "next": [13]
+        },
+        {
+            "id": 7,
+            "label": "6: Walmart associate",
+            "next": [15, 16]
+        },
+        {
+            "id": 8,
+            "label": "7: digital pharmacy support",
+            "next": [17]
+        },
+        {
+            "id": 9,
+            "label": "1,1: senior need assistance",
+            "next": [13]
+        },
+        {
+            "id": 10,
+            "label": "1,W: for next agent",
+            "next": [13]
+        },
+        {
+            "id": 11,
+            "label": "2,W: for next agent",
+            "next": [13]
+        },
+        {
+            "id": 12,
+            "label": "3,W: for next agent",
+            "next": [13]
+        },
+        {
+            "end": true,
+            "id": 13,
+            "label": "END: redirect to agent",
+            "next": []
+        },
+        {
+            "end": true,
+            "id": 14,
+            "label": "END: transfer to MasterCard",
+            "next": []
+        },
+        {
+            "id": 15,
+            "label": "6,9: back to main menu",
+            "next": [1]
+        },
+        {
+            "id": 16,
+            "label": "6,*: repeat options",
+            "next": [7]
+        },
+        {
+            "id": 17,
+            "label": "7,W: for next agent",
+            "next": [13]
+        }
+    ]
+}
